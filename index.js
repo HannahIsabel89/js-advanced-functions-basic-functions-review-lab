@@ -12,12 +12,15 @@ let mondayWork = (activity="go to the office") => {
 mondayWork("go to the gym");
 
 // Lab question 3
+<<<<<<< HEAD
 function wrapAdjective (style="*") {
   return function (adj="special") {
     return `You are ${style} ${adj} ${style}`
   }
 };
  // from answer guide
+=======
+>>>>>>> d15c5bde13574479971bb63f3ec90157c0897f24
 let wrapAdjective = function(style="*") {
     return function(adjective="special") {
       return `You are ${style}${adjective}${style}!`
@@ -39,3 +42,7 @@ let wrapAdjective = function(style="*") {
       return a / b;
     }
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d15c5bde13574479971bb63f3ec90157c0897f24
